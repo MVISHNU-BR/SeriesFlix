@@ -1,0 +1,38 @@
+:root{
+    --vermelho:#e50914;
+    --preta: #141414;
+}
+
+body{
+    background: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+}
+ header .container{
+     display: flex;
+     flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+header .logo{
+    color: var(--vermelho);
+    font-family: 'Arial black', 'Times';
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+.menu{
+    margin-right: 10px;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 25px;
+    text-align: left;
+    color: #aaa;
+    margin-right: 10px;
+}
+
+.menu a:hover{
+    color: #FFF;
+}
