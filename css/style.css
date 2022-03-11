@@ -6,6 +6,7 @@
 body{
     background: var(--preta);
     font-family: 'Times New Roman', Times, serif;
+    color: #FFF;
 }
  header .container{
      display: flex;
@@ -35,4 +36,44 @@ header .logo{
 
 .menu a:hover{
     color: #FFF;
+}
+
+/*Seção Main*/
+
+.filme-principal{
+
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)),url(../assents/vikings.jpg);
+
+    
+    height: 400px;
+    background-size: 100% 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container{
+    margin-left: 15px;
+}
+
+.titulo{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.descricao{
+    margin-bottom: 40px;
+    width: 700px;
+}
+
+.botao{
+    font-size: 20px;
+    background-color: #FFF;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 20px;
+    
 }
